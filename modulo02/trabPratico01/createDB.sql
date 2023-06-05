@@ -48,3 +48,13 @@ create table pesquisa(
     constraint fk_clima foreign key(cod_clima) references clima(cod_clima)
 );
 
+create table carga_python(
+	cod_pessoa			int,
+    data_coleta			date,
+    genero				varchar(45),
+    data_nascimento		date,
+    animal_estimacao	varchar(45),
+    clima				varchar(45),
+    bebida_favorita		varchar(45),
+    hobbies				varchar(45)
+);
