@@ -1,4 +1,6 @@
+drop database TrabModulo02;
 create database TrabModulo02;
+
 use TrabModulo02;
 
 create table animal_estimacao(
@@ -14,7 +16,7 @@ create table bebida(
 );
 
 create table pessoa(
-	cod_pessoa		int not null auto_increment,
+	cod_pessoa		int not null,
     genero			varchar(45) not null,
     data_nascimento	date not null,
     primary key(cod_pessoa)
