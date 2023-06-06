@@ -11,7 +11,8 @@ create table modelo_veiculo (
 	cod_modelo			int not null auto_increment,
     descricao_modelo	varchar(45),
     cod_fabricante		int not null,
-    primary key(cod_modelo)
+    primary key(cod_modelo),
+    constraint fk_fabricante foreign key(cod_fabricante) references fabricante(cod_fabricante)
 );
 
 create table pessoa (
@@ -28,7 +29,9 @@ create table venda_veiculo (
     valor_venda			decimal(10,2),
     cod_pessoa			int,
     cod_modelo			int,
-    primary key(cod_venda)
+    primary key(cod_venda),
+    constraint fk_pessoa foreign key(cod_pessoa) references pessoa(cod_pessoa),
+    constraint fk_modelo_veiculo foreign key(cod_modelo) references modelo_veiculo(cod_modelo)
 );
 
 create table stg_venda_veiculo (
