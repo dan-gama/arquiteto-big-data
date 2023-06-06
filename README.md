@@ -23,3 +23,12 @@ Para essa atividade, os alunos devem realizar a coleta estruturada nos *datasets
 ### Observações:
 1. Se der algum problema de biblioteca, crie um ambiente virtual com as bibliotecas e versões do arquivo "requirements.txt";
 2. O script "queryRespostas.sql" contém as queries utilizadas para responder o trabalho prático.
+
+## Módulo 02 - Coleta de dados - ABD.62
+
+### Instruções:
+1. Execute o script "createDB.sql" dentro do MySQL para criar o banco de dados do projeto;
+2. Execute jupyter notebook "script.ipynb" para carregar os dados nas tabelas do MySQL;
+
+### Observações:
+1. Se der algum problema de biblioteca, crie um ambiente virtual com as bibliotecas e versões do arquivo "requirements.txt";
