@@ -29,6 +29,7 @@ Para essa atividade, os alunos devem realizar a coleta estruturada nos *datasets
 ### Instruções:
 1. Execute o script "createDB.sql" dentro do MySQL para criar o banco de dados do projeto;
 2. Execute jupyter notebook "script.ipynb" para carregar os dados nas tabelas do MySQL;
+3. Execute o script "loadTables.sql" para carregar a tabela venda_veiculo.
 
 ### Observações:
 1. Se der algum problema de biblioteca, crie um ambiente virtual com as bibliotecas e versões do arquivo "requirements.txt";
