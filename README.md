@@ -42,7 +42,7 @@ Para essa atividade, os alunos devem realizar a coleta estruturada nos *datasets
 3. Execute o script "script/loadTables.sql" para carregar a tabela stg_jogador.
 
 ### Instruções mongoDB:
-1. Execute jupyter notebook "scriptMongo.ipynb" para criar um banco no monboDB e incluir as informações do dataset
+1. Execute jupyter notebook "scriptMongo.ipynb" para criar um banco no mongoDB e incluir as informações do dataset no mesmo.
 
 ### Observações:
 1. Se der algum problema de biblioteca, crie um ambiente virtual com as bibliotecas e versões do arquivo "requirements.txt";
