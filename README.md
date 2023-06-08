@@ -33,3 +33,18 @@ Para essa atividade, os alunos devem realizar a coleta estruturada nos *datasets
 
 ### Observações:
 1. Se der algum problema de biblioteca, crie um ambiente virtual com as bibliotecas e versões do arquivo "requirements.txt";
+
+## Módulo 02 - Desafio
+
+### Instruções MySQL:
+1. Execute o script "script/createDB.sql" dentro do MySQL para criar o banco de dados "desafioModulo02";
+2. Execute jupyter notebook "scriptMySQL.ipynb" para carregar os dados nas tabelas do MySQL;
+3. Execute o script "script/loadTables.sql" para carregar a tabela stg_jogador.
+
+### Instruções mongoDB:
+1. Execute jupyter notebook "scriptMongo.ipynb" para criar um banco no monboDB e incluir as informações do dataset
+
+### Observações:
+1. Se der algum problema de biblioteca, crie um ambiente virtual com as bibliotecas e versões do arquivo "requirements.txt";
+2. O script "scripts/queryRespostasMySQL.sql" contém as queries utilizadas para responder as perguntas relativas ao banco MySQL;
+3. O script "scripts/queryRespostasMongo.sql" contém as queries utilizadas para responder as perguntas relativas ao banco mongoDB;
